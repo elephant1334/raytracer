@@ -1,0 +1,78 @@
+﻿生成启动时间为 2014/12/20 20:46:50。
+     1>项目“F:\documents\visual studio 2012\Projects\MFCPixel\MFCPixel\MFCPixel.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt World.cpp
+         World.cpp
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\rgbcolor.h(58): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\viewplane.h(39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\constants.h(20): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\glossyspecular.h(62): warning C4244: “=”: 从“const float”转换到“int”，可能丢失数据
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(101): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(106): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(111): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(112): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(117): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(118): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(180): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(181): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(183): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(184): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(185): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(186): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(490): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(494): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(519): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(524): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(529): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(530): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(535): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(536): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(567): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(571): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(596): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(601): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(606): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(607): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(612): warning C4305: “参数”: 从“double”到“const float”截断
+     1>f:\documents\visual studio 2012\projects\mfcpixel\mfcpixel\world.cpp(613): warning C4305: “参数”: 从“double”到“const float”截断
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\documents\visual studio 2012\Projects\MFCPixel\Debug\myraytracer.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\documents\visual studio 2012\Projects\MFCPixel\Debug\myraytracer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\documents\visual studio 2012\Projects\MFCPixel\Debug\myraytracer.lib" /MACHINE:X86 Debug\MFCPixel.res
+         Debug\Ambient.obj
+         Debug\BRDF.obj
+         Debug\BuildSingleSphere.obj
+         Debug\Camera.obj
+         Debug\ChildView.obj
+         Debug\Directional.obj
+         Debug\GeometricObject.obj
+         Debug\GlossySpecular.obj
+         Debug\Lambertian.obj
+         Debug\Light.obj
+         Debug\MainFrm.obj
+         Debug\Material.obj
+         Debug\Matrix.obj
+         Debug\Matte.obj
+         Debug\MFCPixel.obj
+         Debug\Normal.obj
+         Debug\Phong.obj
+         Debug\Pinhole.obj
+         Debug\Plane.obj
+         Debug\Point2D.obj
+         Debug\Point3D.obj
+         Debug\PointLight.obj
+         Debug\Ray.obj
+         Debug\RayCast.obj
+         Debug\RGBColor.obj
+         Debug\ShadeRec.obj
+         Debug\Sphere.obj
+         Debug\stdafx.obj
+         Debug\Tracer.obj
+         Debug\Vector3D.obj
+         Debug\ViewPlane.obj
+         Debug\World.obj
+         MFCPixel.vcxproj -> F:\documents\visual studio 2012\Projects\MFCPixel\Debug\myraytracer.exe
+     1>已完成生成项目“F:\documents\visual studio 2012\Projects\MFCPixel\MFCPixel\MFCPixel.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.60

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{1c9c1786-0b0c-4b5c-9614-adb9f259da5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeometricObjects">
+      <UniqueIdentifier>{01f61dd8-c70b-4c16-a985-1c52f453eb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracer">
+      <UniqueIdentifier>{d02f7769-11f2-4824-88ed-58d9f13fe79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4a0efe52-5ee8-48ca-b642-aedc1b251d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{11e5ebdc-ee3c-4c84-ab97-b74dec0a5a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BRDF">
+      <UniqueIdentifier>{85622c9f-2310-41f1-975a-81592856ac0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{80b40207-d0dc-4247-a3e4-5572e721f50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{cfaf557b-2486-4a95-920e-87a88dd6f31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{2c4b3746-eefe-4657-80b3-fdb6e83473b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCPixel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPlane.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeRec.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>GeometricObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Ambient.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Directional.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Matte.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="RayCast.h">
+      <Filter>Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinhole.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2D.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Phong.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="GlossySpecular.h">
+      <Filter>BRDF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCPixel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildSingleSphere.cpp">
+      <Filter>build</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricObject.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPlane.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeRec.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>GeometricObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Ambient.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Directional.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambertian.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Matte.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="RayCast.cpp">
+      <Filter>Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinhole.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Point2D.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Phong.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="GlossySpecular.cpp">
+      <Filter>BRDF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCPixel.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCPixel.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCPixel.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
